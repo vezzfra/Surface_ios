@@ -1,0 +1,1063 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130F7E562228347C0029D879 /* checklist.html in Resources */ = {isa = PBXBuildFile; fileRef = 130F7E552228347C0029D879 /* checklist.html */; };
+		13101A8421986552003F0B28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13101A8321986552003F0B28 /* AppDelegate.swift */; };
+		13101A8621986552003F0B28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13101A8521986552003F0B28 /* ViewController.swift */; };
+		13101A8921986552003F0B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13101A8721986552003F0B28 /* Main.storyboard */; };
+		13101A8B21986556003F0B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13101A8A21986556003F0B28 /* Assets.xcassets */; };
+		13101A8E21986556003F0B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13101A8C21986556003F0B28 /* LaunchScreen.storyboard */; };
+		13101A9821986952003F0B28 /* 14301c7116f1ef503964cbfff0241a04.gif in Resources */ = {isa = PBXBuildFile; fileRef = 13101A9721986952003F0B28 /* 14301c7116f1ef503964cbfff0241a04.gif */; };
+		13101A9A21986A37003F0B28 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 13101A9921986A36003F0B28 /* logo.png */; };
+		13101A9C21986BB6003F0B28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13101A9B21986BB6003F0B28 /* LoginViewController.swift */; };
+		131B21C721AF23D200BD08AC /* StatisticaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B21C621AF23D200BD08AC /* StatisticaTableViewCell.swift */; };
+		131EF5CF222A949000155CA2 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 131EF5CD222A948F00155CA2 /* thumb.png */; };
+		131EF5D0222A949000155CA2 /* improve.png in Resources */ = {isa = PBXBuildFile; fileRef = 131EF5CE222A948F00155CA2 /* improve.png */; };
+		131EF5D2222A9F8100155CA2 /* ManageAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131EF5D1222A9F8100155CA2 /* ManageAccountViewController.swift */; };
+		131EF5D4222AA0E000155CA2 /* profile_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 131EF5D3222AA0DF00155CA2 /* profile_picture.png */; };
+		131EF5DC222AD13D00155CA2 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131EF5DB222AD13D00155CA2 /* FAQViewController.swift */; };
+		131EF5E3222AEEAC00155CA2 /* man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 131EF5E1222AEEAC00155CA2 /* man.jpg */; };
+		131EF5E4222AEEAC00155CA2 /* woman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 131EF5E2222AEEAC00155CA2 /* woman.jpg */; };
+		13230614222039EB009464CB /* CheckListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13230613222039EB009464CB /* CheckListTableViewCell.swift */; };
+		13263651219AE29C00134B6C /* icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 13263650219AE29B00134B6C /* icon_180.png */; };
+		132F2BE4222B731300FD3220 /* ShowCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132F2BE3222B731300FD3220 /* ShowCheckViewController.swift */; };
+		1330FA0C2229B3A400B16C9D /* SchedeAutistaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1330FA0B2229B3A400B16C9D /* SchedeAutistaTableViewCell.swift */; };
+		1330FA0E2229B75700B16C9D /* MostraHTMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1330FA0D2229B75700B16C9D /* MostraHTMLViewController.swift */; };
+		1337E21222274AF0009B87CA /* CheckDAEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1337E21122274AF0009B87CA /* CheckDAEViewController.swift */; };
+		1337E21422274C48009B87CA /* DAETableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1337E21322274C48009B87CA /* DAETableViewCell.swift */; };
+		1337E21622274E2C009B87CA /* LeMieSchedeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1337E21522274E2C009B87CA /* LeMieSchedeViewController.swift */; };
+		13399754219DC66C006D78A6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13399753219DC66C006D78A6 /* SignUpViewController.swift */; };
+		133A2E8121C3C22E00A6FEF1 /* green_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 133A2E7D21C3C22E00A6FEF1 /* green_pin.png */; };
+		133A2E8221C3C22E00A6FEF1 /* yellow_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 133A2E7E21C3C22E00A6FEF1 /* yellow_pin.png */; };
+		133A2E8321C3C22E00A6FEF1 /* red_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 133A2E7F21C3C22E00A6FEF1 /* red_pin.png */; };
+		133A2E8421C3C22E00A6FEF1 /* gray_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 133A2E8021C3C22E00A6FEF1 /* gray_pin.png */; };
+		133DE23021C1C6C80049877B /* filter_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 133DE22E21C1C6C60049877B /* filter_on.png */; };
+		13479D0821B3D18D001072D9 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13479D0721B3D18D001072D9 /* PickerViewViewController.swift */; };
+		13479D0A21B3DBFF001072D9 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13479D0921B3DBFF001072D9 /* UIAlertController+Extensions.swift */; };
+		13479D0C21B3DCE9001072D9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13479D0B21B3DCE9001072D9 /* UIView+Extensions.swift */; };
+		13479D0E21B3E476001072D9 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13479D0D21B3E476001072D9 /* DatePickerViewController.swift */; };
+		1348998521B41927001C330F /* calendar-icon-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348998421B41927001C330F /* calendar-icon-15.png */; };
+		1348998721B41ABE001C330F /* GestioneTurniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348998621B41ABE001C330F /* GestioneTurniViewController.swift */; };
+		1348998921B41E85001C330F /* 404-page-not-found-456876.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348998821B41E84001C330F /* 404-page-not-found-456876.png */; };
+		1348998B21B41F59001C330F /* TurniTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348998A21B41F59001C330F /* TurniTableViewCell.swift */; };
+		1348999021B42197001C330F /* formazione.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348998C21B42197001C330F /* formazione.png */; };
+		1348999121B42197001C330F /* gm.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348998D21B42197001C330F /* gm.png */; };
+		1348999221B42197001C330F /* convenzione.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348998E21B42197001C330F /* convenzione.png */; };
+		1348999321B42197001C330F /* centralino.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348998F21B42197001C330F /* centralino.png */; };
+		1348999521B42615001C330F /* wait.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348999421B42614001C330F /* wait.png */; };
+		1348999721B42810001C330F /* NuovoTurnoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1348999621B42810001C330F /* NuovoTurnoViewController.swift */; };
+		1348999A21B43734001C330F /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 1348999921B43734001C330F /* tick.png */; };
+		134A5BB022269FBF00562C4E /* scheda.html in Resources */ = {isa = PBXBuildFile; fileRef = 134A5BAF22269FBF00562C4E /* scheda.html */; };
+		134D79DA222D721500D30E90 /* ambulance_front.png in Resources */ = {isa = PBXBuildFile; fileRef = 134D79D6222D721000D30E90 /* ambulance_front.png */; };
+		134D79DB222D721500D30E90 /* ambulance_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 134D79D7222D721000D30E90 /* ambulance_left.png */; };
+		134D79DC222D721500D30E90 /* ambulance_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 134D79D8222D721200D30E90 /* ambulance_back.png */; };
+		134D79DD222D721500D30E90 /* ambulance_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 134D79D9222D721400D30E90 /* ambulance_right.png */; };
+		13572AD1222966E1008B5372 /* NuovaSchedaAutistaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13572AD0222966E1008B5372 /* NuovaSchedaAutistaViewController.swift */; };
+		135A58F722284B3000EBE0AB /* ControlloCarrozzeriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A58F622284B3000EBE0AB /* ControlloCarrozzeriaViewController.swift */; };
+		135A58FD222853B500EBE0AB /* MieSchedeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135A58FC222853B500EBE0AB /* MieSchedeTableViewCell.swift */; };
+		136F08F822234B6F0071DC99 /* AggiuntaNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136F08F722234B6F0071DC99 /* AggiuntaNoteViewController.swift */; };
+		136F08FC222353520071DC99 /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F08FB222353500071DC99 /* trash.png */; };
+		136F0F7D2226AE690001054D /* CheckListSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136F0F7C2226AE690001054D /* CheckListSectionViewController.swift */; };
+		136F0F7F2226E4240001054D /* CheckSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136F0F7E2226E4240001054D /* CheckSectionTableViewCell.swift */; };
+		13717398219ADF4400A5F44A /* logout-rounded-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 13717397219ADF4400A5F44A /* logout-rounded-filled.png */; };
+		137409EB21B34F7F00CD1C81 /* Source in Resources */ = {isa = PBXBuildFile; fileRef = 137409EA21B34F7F00CD1C81 /* Source */; };
+		1374CAE32199D2440024EECE /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1374CAE22199D2440024EECE /* ServiceTableViewCell.swift */; };
+		1374CAE52199D5290024EECE /* live__plus_icon_1099279.png in Resources */ = {isa = PBXBuildFile; fileRef = 1374CAE42199D5290024EECE /* live__plus_icon_1099279.png */; };
+		1374CAE72199D73D0024EECE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1374CAE62199D73D0024EECE /* InfoViewController.swift */; };
+		1374CAE92199E33C0024EECE /* NuovoServizioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1374CAE82199E33C0024EECE /* NuovoServizioViewController.swift */; };
+		1374CAEB2199E8080024EECE /* checked-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1374CAEA2199E8080024EECE /* checked-2.png */; };
+		1389879C2221E36B009B9689 /* send_scheda.png in Resources */ = {isa = PBXBuildFile; fileRef = 138987992221E369009B9689 /* send_scheda.png */; };
+		1389879D2221E36B009B9689 /* add_scheda.ico in Resources */ = {isa = PBXBuildFile; fileRef = 1389879A2221E36A009B9689 /* add_scheda.ico */; };
+		1389879E2221E36B009B9689 /* notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1389879B2221E36B009B9689 /* notes.png */; };
+		138CA57A222B68490031B06F /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 138CA579222B68470031B06F /* check.png */; };
+		1390241E21C48897004CF00E /* SearchUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390241C21C48897004CF00E /* SearchUsersViewController.swift */; };
+		1390242121C48EA6004CF00E /* GestioneSquadreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390242021C48EA6004CF00E /* GestioneSquadreViewController.swift */; };
+		1392608221C1D0E700689999 /* filter_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 1392608121C1D0E700689999 /* filter_off.png */; };
+		1392608521C1D3B000689999 /* descending.png in Resources */ = {isa = PBXBuildFile; fileRef = 1392608321C1D3AE00689999 /* descending.png */; };
+		1392608621C1D3B000689999 /* ascending.png in Resources */ = {isa = PBXBuildFile; fileRef = 1392608421C1D3AF00689999 /* ascending.png */; };
+		1397CE9422B430B1009F36BF /* info_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1397CE9222B430B0009F36BF /* info_icon.png */; };
+		1397CE9522B430B1009F36BF /* patient-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1397CE9322B430B0009F36BF /* patient-icon.png */; };
+		139A02462223595E003C166A /* tick_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 139A02452223595E003C166A /* tick_1.png */; };
+		139D90F3222C1F92001274F3 /* ambulance.png in Resources */ = {isa = PBXBuildFile; fileRef = 139D90F2222C1F91001274F3 /* ambulance.png */; };
+		139D90F5222C203E001274F3 /* volontari.png in Resources */ = {isa = PBXBuildFile; fileRef = 139D90F4222C203D001274F3 /* volontari.png */; };
+		139D90FD222C31DA001274F3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139D90FC222C31DA001274F3 /* NotificationService.swift */; };
+		139D9101222C31DA001274F3 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 139D90FA222C31DA001274F3 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		13A2C0A021B6DC8B00A93161 /* non_identifica.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A2C09B21B6DC8B00A93161 /* non_identifica.png */; };
+		13A2C0A121B6DC8B00A93161 /* inc.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A2C09C21B6DC8B00A93161 /* inc.png */; };
+		13A2C0A221B6DC8B00A93161 /* violento.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A2C09D21B6DC8B00A93161 /* violento.png */; };
+		13A2C0A321B6DC8B00A93161 /* medico.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A2C09E21B6DC8B00A93161 /* medico.png */; };
+		13A2C0A421B6DC8B00A93161 /* soccorso_persona.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A2C09F21B6DC8B00A93161 /* soccorso_persona.png */; };
+		13B1EC72221D4FED003FEADA /* DisambuguazioneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B1EC71221D4FED003FEADA /* DisambuguazioneViewController.swift */; };
+		13B1EC74221D559A003FEADA /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 13B1EC73221D559A003FEADA /* home.png */; };
+		13B1EC76221D5AE5003FEADA /* GestioneMezziViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B1EC75221D5AE5003FEADA /* GestioneMezziViewController.swift */; };
+		13C3AA6E22200F38009D1DE2 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C3AA6D22200F37009D1DE2 /* account.png */; };
+		13C8542121C2A7FB003E965C /* caduta.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C8542021C2A7FB003E965C /* caduta.png */; };
+		13C8542321C2A92A003E965C /* acqua.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C8542221C2A92A003E965C /* acqua.png */; };
+		13C8542521C2A97F003E965C /* montagna.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C8542421C2A97F003E965C /* montagna.png */; };
+		13C8542721C2AA3A003E965C /* grotta.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C8542621C2AA3A003E965C /* grotta.png */; };
+		13C8542921C2AAD9003E965C /* infortunio.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C8542821C2AAD9003E965C /* infortunio.png */; };
+		13C8542B21C2AB7E003E965C /* intossicazione.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C8542A21C2AB7E003E965C /* intossicazione.png */; };
+		13C8542D21C2ABF3003E965C /* animali.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C8542C21C2ABF2003E965C /* animali.png */; };
+		13C8542F21C2AC9E003E965C /* calamita.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C8542E21C2AC9E003E965C /* calamita.png */; };
+		13C8543121C2AD7D003E965C /* massa.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C8543021C2AD7D003E965C /* massa.png */; };
+		13CFB481233BF79200BD2394 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFB480233BF79200BD2394 /* LoadingViewController.swift */; };
+		13D167DB221DA98300845736 /* GestioneVolontariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D167DA221DA98300845736 /* GestioneVolontariViewController.swift */; };
+		13D5720621C7BAD500617DF7 /* alert_pending.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D5720521C7BAD500617DF7 /* alert_pending.png */; };
+		13DBE2EB2221C94C00F2B32B /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DBE2EA2221C94B00F2B32B /* back.png */; };
+		13DBE2ED2221DCB900F2B32B /* NuovaSchedaSoccorritoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DBE2EC2221DCB900F2B32B /* NuovaSchedaSoccorritoreViewController.swift */; };
+		13DD8B1D2222F6F9000E2F5D /* ServizioCSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DD8B1C2222F6F9000E2F5D /* ServizioCSTableViewCell.swift */; };
+		13F94B5B21C9443100DE0CEA /* team.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F94B5A21C9443000DE0CEA /* team.png */; };
+		3CA5C2FF092951E0F18D3B44 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B09F0F5D0D8D185CD90A9A /* Pods_OneSignalNotificationServiceExtension.framework */; };
+		F02518C3BA580F7D707C0DF1 /* Pods_Gestionale_squadre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A67C792D747F56F0896F152 /* Pods_Gestionale_squadre.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		139D90FF222C31DA001274F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13101A7821986552003F0B28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 139D90F9222C31DA001274F3;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		138CA578222B5A8F0031B06F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				139D9101222C31DA001274F3 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		130F7E552228347C0029D879 /* checklist.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = checklist.html; sourceTree = "<group>"; };
+		13101A8021986552003F0B28 /* Gestionale_squadre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestionale_squadre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13101A8321986552003F0B28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13101A8521986552003F0B28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13101A8821986552003F0B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13101A8A21986556003F0B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13101A8D21986556003F0B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13101A8F21986556003F0B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13101A9521986885003F0B28 /* APExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = APExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13101A9721986952003F0B28 /* 14301c7116f1ef503964cbfff0241a04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 14301c7116f1ef503964cbfff0241a04.gif; sourceTree = "<group>"; };
+		13101A9921986A36003F0B28 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		13101A9B21986BB6003F0B28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		131B21C621AF23D200BD08AC /* StatisticaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticaTableViewCell.swift; sourceTree = "<group>"; };
+		131EF5CD222A948F00155CA2 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		131EF5CE222A948F00155CA2 /* improve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = improve.png; sourceTree = "<group>"; };
+		131EF5D1222A9F8100155CA2 /* ManageAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageAccountViewController.swift; sourceTree = "<group>"; };
+		131EF5D3222AA0DF00155CA2 /* profile_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_picture.png; sourceTree = "<group>"; };
+		131EF5DB222AD13D00155CA2 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		131EF5E1222AEEAC00155CA2 /* man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = man.jpg; sourceTree = "<group>"; };
+		131EF5E2222AEEAC00155CA2 /* woman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woman.jpg; sourceTree = "<group>"; };
+		13230613222039EB009464CB /* CheckListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListTableViewCell.swift; sourceTree = "<group>"; };
+		13263650219AE29B00134B6C /* icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_180.png; sourceTree = "<group>"; };
+		132F2BE3222B731300FD3220 /* ShowCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCheckViewController.swift; sourceTree = "<group>"; };
+		1330FA0B2229B3A400B16C9D /* SchedeAutistaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedeAutistaTableViewCell.swift; sourceTree = "<group>"; };
+		1330FA0D2229B75700B16C9D /* MostraHTMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostraHTMLViewController.swift; sourceTree = "<group>"; };
+		1337E21122274AF0009B87CA /* CheckDAEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDAEViewController.swift; sourceTree = "<group>"; };
+		1337E21322274C48009B87CA /* DAETableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAETableViewCell.swift; sourceTree = "<group>"; };
+		1337E21522274E2C009B87CA /* LeMieSchedeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeMieSchedeViewController.swift; sourceTree = "<group>"; };
+		13399753219DC66C006D78A6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		133A2E7D21C3C22E00A6FEF1 /* green_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_pin.png; sourceTree = "<group>"; };
+		133A2E7E21C3C22E00A6FEF1 /* yellow_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow_pin.png; sourceTree = "<group>"; };
+		133A2E7F21C3C22E00A6FEF1 /* red_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_pin.png; sourceTree = "<group>"; };
+		133A2E8021C3C22E00A6FEF1 /* gray_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_pin.png; sourceTree = "<group>"; };
+		133DE22E21C1C6C60049877B /* filter_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_on.png; sourceTree = "<group>"; };
+		13479D0721B3D18D001072D9 /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		13479D0921B3DBFF001072D9 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		13479D0B21B3DCE9001072D9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		13479D0D21B3E476001072D9 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		1348998421B41927001C330F /* calendar-icon-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icon-15.png"; sourceTree = "<group>"; };
+		1348998621B41ABE001C330F /* GestioneTurniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestioneTurniViewController.swift; sourceTree = "<group>"; };
+		1348998821B41E84001C330F /* 404-page-not-found-456876.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "404-page-not-found-456876.png"; sourceTree = "<group>"; };
+		1348998A21B41F59001C330F /* TurniTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurniTableViewCell.swift; sourceTree = "<group>"; };
+		1348998C21B42197001C330F /* formazione.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formazione.png; sourceTree = "<group>"; };
+		1348998D21B42197001C330F /* gm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gm.png; sourceTree = "<group>"; };
+		1348998E21B42197001C330F /* convenzione.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = convenzione.png; sourceTree = "<group>"; };
+		1348998F21B42197001C330F /* centralino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centralino.png; sourceTree = "<group>"; };
+		1348999421B42614001C330F /* wait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wait.png; sourceTree = "<group>"; };
+		1348999621B42810001C330F /* NuovoTurnoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuovoTurnoViewController.swift; sourceTree = "<group>"; };
+		1348999921B43734001C330F /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		134A5BAF22269FBF00562C4E /* scheda.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scheda.html; sourceTree = "<group>"; };
+		134D79D6222D721000D30E90 /* ambulance_front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ambulance_front.png; sourceTree = "<group>"; };
+		134D79D7222D721000D30E90 /* ambulance_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ambulance_left.png; sourceTree = "<group>"; };
+		134D79D8222D721200D30E90 /* ambulance_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ambulance_back.png; sourceTree = "<group>"; };
+		134D79D9222D721400D30E90 /* ambulance_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ambulance_right.png; sourceTree = "<group>"; };
+		13572AD0222966E1008B5372 /* NuovaSchedaAutistaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuovaSchedaAutistaViewController.swift; sourceTree = "<group>"; };
+		135A58F622284B3000EBE0AB /* ControlloCarrozzeriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlloCarrozzeriaViewController.swift; sourceTree = "<group>"; };
+		135A58FC222853B500EBE0AB /* MieSchedeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MieSchedeTableViewCell.swift; sourceTree = "<group>"; };
+		136F08F722234B6F0071DC99 /* AggiuntaNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggiuntaNoteViewController.swift; sourceTree = "<group>"; };
+		136F08FB222353500071DC99 /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		136F0F7C2226AE690001054D /* CheckListSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListSectionViewController.swift; sourceTree = "<group>"; };
+		136F0F7E2226E4240001054D /* CheckSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSectionTableViewCell.swift; sourceTree = "<group>"; };
+		13717397219ADF4400A5F44A /* logout-rounded-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout-rounded-filled.png"; sourceTree = "<group>"; };
+		137409EA21B34F7F00CD1C81 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		1374CAE22199D2440024EECE /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
+		1374CAE42199D5290024EECE /* live__plus_icon_1099279.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = live__plus_icon_1099279.png; sourceTree = "<group>"; };
+		1374CAE62199D73D0024EECE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		1374CAE82199E33C0024EECE /* NuovoServizioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuovoServizioViewController.swift; sourceTree = "<group>"; };
+		1374CAEA2199E8080024EECE /* checked-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked-2.png"; sourceTree = "<group>"; };
+		138987992221E369009B9689 /* send_scheda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_scheda.png; sourceTree = "<group>"; };
+		1389879A2221E36A009B9689 /* add_scheda.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = add_scheda.ico; sourceTree = "<group>"; };
+		1389879B2221E36B009B9689 /* notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notes.png; sourceTree = "<group>"; };
+		138CA579222B68470031B06F /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		1390241C21C48897004CF00E /* SearchUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUsersViewController.swift; sourceTree = "<group>"; };
+		1390242021C48EA6004CF00E /* GestioneSquadreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestioneSquadreViewController.swift; sourceTree = "<group>"; };
+		1392608121C1D0E700689999 /* filter_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter_off.png; sourceTree = "<group>"; };
+		1392608321C1D3AE00689999 /* descending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = descending.png; sourceTree = "<group>"; };
+		1392608421C1D3AF00689999 /* ascending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ascending.png; sourceTree = "<group>"; };
+		1397CE9222B430B0009F36BF /* info_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_icon.png; sourceTree = "<group>"; };
+		1397CE9322B430B0009F36BF /* patient-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "patient-icon.png"; sourceTree = "<group>"; };
+		139A02452223595E003C166A /* tick_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick_1.png; sourceTree = "<group>"; };
+		139D90F2222C1F91001274F3 /* ambulance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ambulance.png; sourceTree = "<group>"; };
+		139D90F4222C203D001274F3 /* volontari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volontari.png; sourceTree = "<group>"; };
+		139D90FA222C31DA001274F3 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		139D90FC222C31DA001274F3 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		139D90FE222C31DA001274F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A2C09B21B6DC8B00A93161 /* non_identifica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = non_identifica.png; sourceTree = "<group>"; };
+		13A2C09C21B6DC8B00A93161 /* inc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inc.png; sourceTree = "<group>"; };
+		13A2C09D21B6DC8B00A93161 /* violento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = violento.png; sourceTree = "<group>"; };
+		13A2C09E21B6DC8B00A93161 /* medico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medico.png; sourceTree = "<group>"; };
+		13A2C09F21B6DC8B00A93161 /* soccorso_persona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccorso_persona.png; sourceTree = "<group>"; };
+		13B1EC71221D4FED003FEADA /* DisambuguazioneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisambuguazioneViewController.swift; sourceTree = "<group>"; };
+		13B1EC73221D559A003FEADA /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		13B1EC75221D5AE5003FEADA /* GestioneMezziViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestioneMezziViewController.swift; sourceTree = "<group>"; };
+		13C3AA6D22200F37009D1DE2 /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		13C8542021C2A7FB003E965C /* caduta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caduta.png; sourceTree = "<group>"; };
+		13C8542221C2A92A003E965C /* acqua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acqua.png; sourceTree = "<group>"; };
+		13C8542421C2A97F003E965C /* montagna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = montagna.png; sourceTree = "<group>"; };
+		13C8542621C2AA3A003E965C /* grotta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grotta.png; sourceTree = "<group>"; };
+		13C8542821C2AAD9003E965C /* infortunio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infortunio.png; sourceTree = "<group>"; };
+		13C8542A21C2AB7E003E965C /* intossicazione.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intossicazione.png; sourceTree = "<group>"; };
+		13C8542C21C2ABF2003E965C /* animali.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animali.png; sourceTree = "<group>"; };
+		13C8542E21C2AC9E003E965C /* calamita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calamita.png; sourceTree = "<group>"; };
+		13C8543021C2AD7D003E965C /* massa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = massa.png; sourceTree = "<group>"; };
+		13CFB480233BF79200BD2394 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		13D167DA221DA98300845736 /* GestioneVolontariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestioneVolontariViewController.swift; sourceTree = "<group>"; };
+		13D5720521C7BAD500617DF7 /* alert_pending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert_pending.png; sourceTree = "<group>"; };
+		13DBE2EA2221C94B00F2B32B /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		13DBE2EC2221DCB900F2B32B /* NuovaSchedaSoccorritoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuovaSchedaSoccorritoreViewController.swift; sourceTree = "<group>"; };
+		13DD8B1C2222F6F9000E2F5D /* ServizioCSTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServizioCSTableViewCell.swift; sourceTree = "<group>"; };
+		13F94B5921C9323900DE0CEA /* Gestionale_squadre.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Gestionale_squadre.entitlements; sourceTree = "<group>"; };
+		13F94B5A21C9443000DE0CEA /* team.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team.png; sourceTree = "<group>"; };
+		1BCDBE0F13644C6E304E2222 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		6A67C792D747F56F0896F152 /* Pods_Gestionale_squadre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gestionale_squadre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B09F0F5D0D8D185CD90A9A /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		977B106871BBAB95E44E2DF4 /* Pods-Gestionale_squadre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gestionale_squadre.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gestionale_squadre/Pods-Gestionale_squadre.release.xcconfig"; sourceTree = "<group>"; };
+		99FAE2A00F61D72AD1B0BC6D /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		FEC647137B0DBF781676F8AD /* Pods-Gestionale_squadre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gestionale_squadre.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gestionale_squadre/Pods-Gestionale_squadre.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13101A7D21986552003F0B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02518C3BA580F7D707C0DF1 /* Pods_Gestionale_squadre.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139D90F7222C31DA001274F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA5C2FF092951E0F18D3B44 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13101A7721986552003F0B28 = {
+			isa = PBXGroup;
+			children = (
+				13101A8221986552003F0B28 /* Gestionale_squadre */,
+				139D90FB222C31DA001274F3 /* OneSignalNotificationServiceExtension */,
+				13101A8121986552003F0B28 /* Products */,
+				1A39D3A4A5901FD45307A075 /* Pods */,
+				EEF455D5567447673A9CB633 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13101A8121986552003F0B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13101A8021986552003F0B28 /* Gestionale_squadre.app */,
+				139D90FA222C31DA001274F3 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13101A8221986552003F0B28 /* Gestionale_squadre */ = {
+			isa = PBXGroup;
+			children = (
+				13F94B5921C9323900DE0CEA /* Gestionale_squadre.entitlements */,
+				137409EA21B34F7F00CD1C81 /* Source */,
+				13479D0D21B3E476001072D9 /* DatePickerViewController.swift */,
+				13CFB480233BF79200BD2394 /* LoadingViewController.swift */,
+				13479D0B21B3DCE9001072D9 /* UIView+Extensions.swift */,
+				13479D0921B3DBFF001072D9 /* UIAlertController+Extensions.swift */,
+				13479D0721B3D18D001072D9 /* PickerViewViewController.swift */,
+				13101A8321986552003F0B28 /* AppDelegate.swift */,
+				13101A8521986552003F0B28 /* ViewController.swift */,
+				1374CAE22199D2440024EECE /* ServiceTableViewCell.swift */,
+				131B21C621AF23D200BD08AC /* StatisticaTableViewCell.swift */,
+				1374CAE62199D73D0024EECE /* InfoViewController.swift */,
+				1374CAE82199E33C0024EECE /* NuovoServizioViewController.swift */,
+				13101A9B21986BB6003F0B28 /* LoginViewController.swift */,
+				13B1EC71221D4FED003FEADA /* DisambuguazioneViewController.swift */,
+				132F2BE3222B731300FD3220 /* ShowCheckViewController.swift */,
+				131EF5D1222A9F8100155CA2 /* ManageAccountViewController.swift */,
+				131EF5DB222AD13D00155CA2 /* FAQViewController.swift */,
+				13B1EC75221D5AE5003FEADA /* GestioneMezziViewController.swift */,
+				13230613222039EB009464CB /* CheckListTableViewCell.swift */,
+				136F0F7C2226AE690001054D /* CheckListSectionViewController.swift */,
+				135A58F622284B3000EBE0AB /* ControlloCarrozzeriaViewController.swift */,
+				136F0F7E2226E4240001054D /* CheckSectionTableViewCell.swift */,
+				1337E21122274AF0009B87CA /* CheckDAEViewController.swift */,
+				1337E21322274C48009B87CA /* DAETableViewCell.swift */,
+				13D167DA221DA98300845736 /* GestioneVolontariViewController.swift */,
+				1337E21522274E2C009B87CA /* LeMieSchedeViewController.swift */,
+				135A58FC222853B500EBE0AB /* MieSchedeTableViewCell.swift */,
+				1330FA0B2229B3A400B16C9D /* SchedeAutistaTableViewCell.swift */,
+				1330FA0D2229B75700B16C9D /* MostraHTMLViewController.swift */,
+				13DBE2EC2221DCB900F2B32B /* NuovaSchedaSoccorritoreViewController.swift */,
+				136F08F722234B6F0071DC99 /* AggiuntaNoteViewController.swift */,
+				13DD8B1C2222F6F9000E2F5D /* ServizioCSTableViewCell.swift */,
+				13572AD0222966E1008B5372 /* NuovaSchedaAutistaViewController.swift */,
+				13399753219DC66C006D78A6 /* SignUpViewController.swift */,
+				1348998621B41ABE001C330F /* GestioneTurniViewController.swift */,
+				1390242021C48EA6004CF00E /* GestioneSquadreViewController.swift */,
+				1348998A21B41F59001C330F /* TurniTableViewCell.swift */,
+				1348999621B42810001C330F /* NuovoTurnoViewController.swift */,
+				1390241C21C48897004CF00E /* SearchUsersViewController.swift */,
+				13101A8721986552003F0B28 /* Main.storyboard */,
+				13101A8A21986556003F0B28 /* Assets.xcassets */,
+				13101A8C21986556003F0B28 /* LaunchScreen.storyboard */,
+				13101A8F21986556003F0B28 /* Info.plist */,
+				1348999821B435AB001C330F /* Media */,
+			);
+			path = Gestionale_squadre;
+			sourceTree = "<group>";
+		};
+		1348999821B435AB001C330F /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				1397CE9222B430B0009F36BF /* info_icon.png */,
+				1397CE9322B430B0009F36BF /* patient-icon.png */,
+				134D79D8222D721200D30E90 /* ambulance_back.png */,
+				134D79D6222D721000D30E90 /* ambulance_front.png */,
+				134D79D7222D721000D30E90 /* ambulance_left.png */,
+				134D79D9222D721400D30E90 /* ambulance_right.png */,
+				139D90F4222C203D001274F3 /* volontari.png */,
+				139D90F2222C1F91001274F3 /* ambulance.png */,
+				138CA579222B68470031B06F /* check.png */,
+				131EF5E1222AEEAC00155CA2 /* man.jpg */,
+				131EF5E2222AEEAC00155CA2 /* woman.jpg */,
+				131EF5D3222AA0DF00155CA2 /* profile_picture.png */,
+				131EF5CE222A948F00155CA2 /* improve.png */,
+				131EF5CD222A948F00155CA2 /* thumb.png */,
+				134A5BAF22269FBF00562C4E /* scheda.html */,
+				130F7E552228347C0029D879 /* checklist.html */,
+				136F08FB222353500071DC99 /* trash.png */,
+				139A02452223595E003C166A /* tick_1.png */,
+				1389879A2221E36A009B9689 /* add_scheda.ico */,
+				1389879B2221E36B009B9689 /* notes.png */,
+				138987992221E369009B9689 /* send_scheda.png */,
+				13B1EC73221D559A003FEADA /* home.png */,
+				13DBE2EA2221C94B00F2B32B /* back.png */,
+				13C3AA6D22200F37009D1DE2 /* account.png */,
+				13F94B5A21C9443000DE0CEA /* team.png */,
+				13D5720521C7BAD500617DF7 /* alert_pending.png */,
+				133A2E8021C3C22E00A6FEF1 /* gray_pin.png */,
+				133A2E7D21C3C22E00A6FEF1 /* green_pin.png */,
+				133A2E7F21C3C22E00A6FEF1 /* red_pin.png */,
+				133A2E7E21C3C22E00A6FEF1 /* yellow_pin.png */,
+				13C8543021C2AD7D003E965C /* massa.png */,
+				13C8542E21C2AC9E003E965C /* calamita.png */,
+				13C8542C21C2ABF2003E965C /* animali.png */,
+				13C8542A21C2AB7E003E965C /* intossicazione.png */,
+				13C8542821C2AAD9003E965C /* infortunio.png */,
+				13C8542421C2A97F003E965C /* montagna.png */,
+				13C8542621C2AA3A003E965C /* grotta.png */,
+				13C8542221C2A92A003E965C /* acqua.png */,
+				13C8542021C2A7FB003E965C /* caduta.png */,
+				1392608421C1D3AF00689999 /* ascending.png */,
+				1392608321C1D3AE00689999 /* descending.png */,
+				1392608121C1D0E700689999 /* filter_off.png */,
+				133DE22E21C1C6C60049877B /* filter_on.png */,
+				13A2C09C21B6DC8B00A93161 /* inc.png */,
+				13A2C09E21B6DC8B00A93161 /* medico.png */,
+				13A2C09B21B6DC8B00A93161 /* non_identifica.png */,
+				13A2C09F21B6DC8B00A93161 /* soccorso_persona.png */,
+				13A2C09D21B6DC8B00A93161 /* violento.png */,
+				1348999921B43734001C330F /* tick.png */,
+				13101A9721986952003F0B28 /* 14301c7116f1ef503964cbfff0241a04.gif */,
+				13101A9921986A36003F0B28 /* logo.png */,
+				1374CAE42199D5290024EECE /* live__plus_icon_1099279.png */,
+				1374CAEA2199E8080024EECE /* checked-2.png */,
+				13717397219ADF4400A5F44A /* logout-rounded-filled.png */,
+				13263650219AE29B00134B6C /* icon_180.png */,
+				1348998421B41927001C330F /* calendar-icon-15.png */,
+				1348998821B41E84001C330F /* 404-page-not-found-456876.png */,
+				1348998F21B42197001C330F /* centralino.png */,
+				1348998E21B42197001C330F /* convenzione.png */,
+				1348998C21B42197001C330F /* formazione.png */,
+				1348998D21B42197001C330F /* gm.png */,
+				1348999421B42614001C330F /* wait.png */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		139D90FB222C31DA001274F3 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				139D90FC222C31DA001274F3 /* NotificationService.swift */,
+				139D90FE222C31DA001274F3 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		1A39D3A4A5901FD45307A075 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEC647137B0DBF781676F8AD /* Pods-Gestionale_squadre.debug.xcconfig */,
+				977B106871BBAB95E44E2DF4 /* Pods-Gestionale_squadre.release.xcconfig */,
+				99FAE2A00F61D72AD1B0BC6D /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				1BCDBE0F13644C6E304E2222 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEF455D5567447673A9CB633 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13101A9521986885003F0B28 /* APExtensions.framework */,
+				6A67C792D747F56F0896F152 /* Pods_Gestionale_squadre.framework */,
+				89B09F0F5D0D8D185CD90A9A /* Pods_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13101A7F21986552003F0B28 /* Gestionale_squadre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13101A9221986556003F0B28 /* Build configuration list for PBXNativeTarget "Gestionale_squadre" */;
+			buildPhases = (
+				4702475A41CC082C35F9AFB8 /* [CP] Check Pods Manifest.lock */,
+				13101A7C21986552003F0B28 /* Sources */,
+				13101A7D21986552003F0B28 /* Frameworks */,
+				13101A7E21986552003F0B28 /* Resources */,
+				11E38A287B9F6A1D48911593 /* [CP] Embed Pods Frameworks */,
+				5CBE4123ED0181F5E0FC6F33 /* [CP] Copy Pods Resources */,
+				138CA578222B5A8F0031B06F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				139D9100222C31DA001274F3 /* PBXTargetDependency */,
+			);
+			name = Gestionale_squadre;
+			productName = Gestionale_squadre;
+			productReference = 13101A8021986552003F0B28 /* Gestionale_squadre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		139D90F9222C31DA001274F3 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139D9102222C31DA001274F3 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				0C491899620304DC27C5CD2F /* [CP] Check Pods Manifest.lock */,
+				139D90F6222C31DA001274F3 /* Sources */,
+				139D90F7222C31DA001274F3 /* Frameworks */,
+				139D90F8222C31DA001274F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 139D90FA222C31DA001274F3 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13101A7821986552003F0B28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ro.v.er.;
+				TargetAttributes = {
+					13101A7F21986552003F0B28 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+					139D90F9222C31DA001274F3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 13101A7B21986552003F0B28 /* Build configuration list for PBXProject "Gestionale_squadre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13101A7721986552003F0B28;
+			productRefGroup = 13101A8121986552003F0B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13101A7F21986552003F0B28 /* Gestionale_squadre */,
+				139D90F9222C31DA001274F3 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13101A7E21986552003F0B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133A2E8421C3C22E00A6FEF1 /* gray_pin.png in Resources */,
+				1392608621C1D3B000689999 /* ascending.png in Resources */,
+				13C8542B21C2AB7E003E965C /* intossicazione.png in Resources */,
+				13C8542F21C2AC9E003E965C /* calamita.png in Resources */,
+				134A5BB022269FBF00562C4E /* scheda.html in Resources */,
+				134D79DA222D721500D30E90 /* ambulance_front.png in Resources */,
+				138CA57A222B68490031B06F /* check.png in Resources */,
+				1348999321B42197001C330F /* centralino.png in Resources */,
+				13A2C0A221B6DC8B00A93161 /* violento.png in Resources */,
+				1374CAE52199D5290024EECE /* live__plus_icon_1099279.png in Resources */,
+				1348999A21B43734001C330F /* tick.png in Resources */,
+				13263651219AE29C00134B6C /* icon_180.png in Resources */,
+				1348999021B42197001C330F /* formazione.png in Resources */,
+				131EF5E3222AEEAC00155CA2 /* man.jpg in Resources */,
+				13C8543121C2AD7D003E965C /* massa.png in Resources */,
+				1389879C2221E36B009B9689 /* send_scheda.png in Resources */,
+				13DBE2EB2221C94C00F2B32B /* back.png in Resources */,
+				13717398219ADF4400A5F44A /* logout-rounded-filled.png in Resources */,
+				13A2C0A421B6DC8B00A93161 /* soccorso_persona.png in Resources */,
+				131EF5D4222AA0E000155CA2 /* profile_picture.png in Resources */,
+				1348999221B42197001C330F /* convenzione.png in Resources */,
+				13101A8E21986556003F0B28 /* LaunchScreen.storyboard in Resources */,
+				1392608221C1D0E700689999 /* filter_off.png in Resources */,
+				133DE23021C1C6C80049877B /* filter_on.png in Resources */,
+				131EF5E4222AEEAC00155CA2 /* woman.jpg in Resources */,
+				1374CAEB2199E8080024EECE /* checked-2.png in Resources */,
+				1397CE9522B430B1009F36BF /* patient-icon.png in Resources */,
+				13C8542D21C2ABF3003E965C /* animali.png in Resources */,
+				1389879E2221E36B009B9689 /* notes.png in Resources */,
+				139D90F5222C203E001274F3 /* volontari.png in Resources */,
+				13C8542921C2AAD9003E965C /* infortunio.png in Resources */,
+				13F94B5B21C9443100DE0CEA /* team.png in Resources */,
+				134D79DC222D721500D30E90 /* ambulance_back.png in Resources */,
+				137409EB21B34F7F00CD1C81 /* Source in Resources */,
+				13B1EC74221D559A003FEADA /* home.png in Resources */,
+				130F7E562228347C0029D879 /* checklist.html in Resources */,
+				13C3AA6E22200F38009D1DE2 /* account.png in Resources */,
+				139D90F3222C1F92001274F3 /* ambulance.png in Resources */,
+				13101A8B21986556003F0B28 /* Assets.xcassets in Resources */,
+				131EF5D0222A949000155CA2 /* improve.png in Resources */,
+				1392608521C1D3B000689999 /* descending.png in Resources */,
+				13C8542321C2A92A003E965C /* acqua.png in Resources */,
+				13101A8921986552003F0B28 /* Main.storyboard in Resources */,
+				131EF5CF222A949000155CA2 /* thumb.png in Resources */,
+				134D79DD222D721500D30E90 /* ambulance_right.png in Resources */,
+				13A2C0A121B6DC8B00A93161 /* inc.png in Resources */,
+				133A2E8221C3C22E00A6FEF1 /* yellow_pin.png in Resources */,
+				13C8542121C2A7FB003E965C /* caduta.png in Resources */,
+				1348999521B42615001C330F /* wait.png in Resources */,
+				1348999121B42197001C330F /* gm.png in Resources */,
+				13A2C0A321B6DC8B00A93161 /* medico.png in Resources */,
+				136F08FC222353520071DC99 /* trash.png in Resources */,
+				13101A9821986952003F0B28 /* 14301c7116f1ef503964cbfff0241a04.gif in Resources */,
+				13101A9A21986A37003F0B28 /* logo.png in Resources */,
+				133A2E8121C3C22E00A6FEF1 /* green_pin.png in Resources */,
+				1389879D2221E36B009B9689 /* add_scheda.ico in Resources */,
+				13C8542521C2A97F003E965C /* montagna.png in Resources */,
+				13D5720621C7BAD500617DF7 /* alert_pending.png in Resources */,
+				139A02462223595E003C166A /* tick_1.png in Resources */,
+				13A2C0A021B6DC8B00A93161 /* non_identifica.png in Resources */,
+				133A2E8321C3C22E00A6FEF1 /* red_pin.png in Resources */,
+				1348998921B41E85001C330F /* 404-page-not-found-456876.png in Resources */,
+				134D79DB222D721500D30E90 /* ambulance_left.png in Resources */,
+				1348998521B41927001C330F /* calendar-icon-15.png in Resources */,
+				13C8542721C2AA3A003E965C /* grotta.png in Resources */,
+				1397CE9422B430B1009F36BF /* info_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139D90F8222C31DA001274F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C491899620304DC27C5CD2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11E38A287B9F6A1D48911593 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gestionale_squadre/Pods-Gestionale_squadre-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FCAlertView/FCAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
+				"${BUILT_PRODUCTS_DIR}/RLBAlertsPickers/RLBAlertsPickers.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftForms/SwiftForms.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/Whisper/Whisper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RLBAlertsPickers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftForms.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Whisper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gestionale_squadre/Pods-Gestionale_squadre-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4702475A41CC082C35F9AFB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gestionale_squadre-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CBE4123ED0181F5E0FC6F33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gestionale_squadre/Pods-Gestionale_squadre-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gestionale_squadre/Pods-Gestionale_squadre-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13101A7C21986552003F0B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136F08F822234B6F0071DC99 /* AggiuntaNoteViewController.swift in Sources */,
+				132F2BE4222B731300FD3220 /* ShowCheckViewController.swift in Sources */,
+				13230614222039EB009464CB /* CheckListTableViewCell.swift in Sources */,
+				13479D0A21B3DBFF001072D9 /* UIAlertController+Extensions.swift in Sources */,
+				135A58FD222853B500EBE0AB /* MieSchedeTableViewCell.swift in Sources */,
+				1337E21622274E2C009B87CA /* LeMieSchedeViewController.swift in Sources */,
+				1390241E21C48897004CF00E /* SearchUsersViewController.swift in Sources */,
+				13101A9C21986BB6003F0B28 /* LoginViewController.swift in Sources */,
+				13399754219DC66C006D78A6 /* SignUpViewController.swift in Sources */,
+				13B1EC76221D5AE5003FEADA /* GestioneMezziViewController.swift in Sources */,
+				13479D0821B3D18D001072D9 /* PickerViewViewController.swift in Sources */,
+				13CFB481233BF79200BD2394 /* LoadingViewController.swift in Sources */,
+				13DD8B1D2222F6F9000E2F5D /* ServizioCSTableViewCell.swift in Sources */,
+				1348998B21B41F59001C330F /* TurniTableViewCell.swift in Sources */,
+				1330FA0C2229B3A400B16C9D /* SchedeAutistaTableViewCell.swift in Sources */,
+				13572AD1222966E1008B5372 /* NuovaSchedaAutistaViewController.swift in Sources */,
+				1374CAE92199E33C0024EECE /* NuovoServizioViewController.swift in Sources */,
+				1330FA0E2229B75700B16C9D /* MostraHTMLViewController.swift in Sources */,
+				1374CAE32199D2440024EECE /* ServiceTableViewCell.swift in Sources */,
+				13B1EC72221D4FED003FEADA /* DisambuguazioneViewController.swift in Sources */,
+				131B21C721AF23D200BD08AC /* StatisticaTableViewCell.swift in Sources */,
+				1390242121C48EA6004CF00E /* GestioneSquadreViewController.swift in Sources */,
+				13101A8621986552003F0B28 /* ViewController.swift in Sources */,
+				13479D0E21B3E476001072D9 /* DatePickerViewController.swift in Sources */,
+				13101A8421986552003F0B28 /* AppDelegate.swift in Sources */,
+				136F0F7F2226E4240001054D /* CheckSectionTableViewCell.swift in Sources */,
+				13DBE2ED2221DCB900F2B32B /* NuovaSchedaSoccorritoreViewController.swift in Sources */,
+				1337E21222274AF0009B87CA /* CheckDAEViewController.swift in Sources */,
+				136F0F7D2226AE690001054D /* CheckListSectionViewController.swift in Sources */,
+				1337E21422274C48009B87CA /* DAETableViewCell.swift in Sources */,
+				135A58F722284B3000EBE0AB /* ControlloCarrozzeriaViewController.swift in Sources */,
+				1374CAE72199D73D0024EECE /* InfoViewController.swift in Sources */,
+				13479D0C21B3DCE9001072D9 /* UIView+Extensions.swift in Sources */,
+				131EF5D2222A9F8100155CA2 /* ManageAccountViewController.swift in Sources */,
+				1348999721B42810001C330F /* NuovoTurnoViewController.swift in Sources */,
+				131EF5DC222AD13D00155CA2 /* FAQViewController.swift in Sources */,
+				1348998721B41ABE001C330F /* GestioneTurniViewController.swift in Sources */,
+				13D167DB221DA98300845736 /* GestioneVolontariViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139D90F6222C31DA001274F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139D90FD222C31DA001274F3 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		139D9100222C31DA001274F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 139D90F9222C31DA001274F3 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 139D90FF222C31DA001274F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13101A8721986552003F0B28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13101A8821986552003F0B28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13101A8C21986556003F0B28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13101A8D21986556003F0B28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13101A9021986556003F0B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13101A9121986556003F0B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13101A9321986556003F0B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC647137B0DBF781676F8AD /* Pods-Gestionale_squadre.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gestionale_squadre/Gestionale_squadre.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WE3L2M3B5;
+				INFOPLIST_FILE = Gestionale_squadre/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vezzoli.Gestionale-squadre";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		13101A9421986556003F0B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977B106871BBAB95E44E2DF4 /* Pods-Gestionale_squadre.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Gestionale_squadre/Gestionale_squadre.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WE3L2M3B5;
+				INFOPLIST_FILE = Gestionale_squadre/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vezzoli.Gestionale-squadre";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		139D9103222C31DA001274F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99FAE2A00F61D72AD1B0BC6D /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WE3L2M3B5;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vezzoli.Gestionale-squadre.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		139D9104222C31DA001274F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BCDBE0F13644C6E304E2222 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WE3L2M3B5;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vezzoli.Gestionale-squadre.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13101A7B21986552003F0B28 /* Build configuration list for PBXProject "Gestionale_squadre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13101A9021986556003F0B28 /* Debug */,
+				13101A9121986556003F0B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13101A9221986556003F0B28 /* Build configuration list for PBXNativeTarget "Gestionale_squadre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13101A9321986556003F0B28 /* Debug */,
+				13101A9421986556003F0B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139D9102222C31DA001274F3 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139D9103222C31DA001274F3 /* Debug */,
+				139D9104222C31DA001274F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13101A7821986552003F0B28 /* Project object */;
+}

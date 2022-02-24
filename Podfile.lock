@@ -1,0 +1,85 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - FCAlertView (1.4.0)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - JGProgressHUD (2.0.3)
+  - M13Checkbox (3.4.0)
+  - OneSignal (2.10.0)
+  - Parse (1.17.2):
+    - Parse/Core (= 1.17.2)
+  - Parse/Core (1.17.2):
+    - Bolts/Tasks (~> 1.9)
+  - Pastel (0.5.1)
+  - RLBAlertsPickers (1.1.2)
+  - SCLAlertView (0.8)
+  - SkyFloatingLabelTextField (3.7.0)
+  - SwiftForms (1.8.2)
+  - SwiftyGif (5.1.1)
+  - Whisper (6.0.2)
+
+DEPENDENCIES:
+  - FCAlertView
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - JGProgressHUD
+  - M13Checkbox
+  - OneSignal
+  - Parse
+  - Pastel
+  - RLBAlertsPickers
+  - SCLAlertView
+  - SkyFloatingLabelTextField
+  - SwiftForms
+  - SwiftyGif
+  - Whisper
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - FCAlertView
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - JGProgressHUD
+    - M13Checkbox
+    - OneSignal
+    - Parse
+    - Pastel
+    - RLBAlertsPickers
+    - SCLAlertView
+    - SkyFloatingLabelTextField
+    - SwiftForms
+    - SwiftyGif
+    - Whisper
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FCAlertView: fdddd63381898c1d1a5a20c9f084fbd2c6d12f8b
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: 1c60c2a26e9d1e73bcb0c6f89609db8d777d13c1
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  OneSignal: 0f5ff711d9f25da54885e4ab06ef0abc221a46ef
+  Parse: 3b31a3dd1777b07ee7f0caee32fafbff544483a5
+  Pastel: b3dd5b8d612dac06ae7c63c97c45c900829bc139
+  RLBAlertsPickers: 2548943b0cb16620904cbd926a645362d1b43963
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  SwiftForms: f0d4d30401e21de87d9b7b63a4691a3d4e22bab5
+  SwiftyGif: f7702483db93586a41f04f4927cd682852a2fa10
+  Whisper: 169760fc4bab0abf24d5529f9276f95c25cf1025
+
+PODFILE CHECKSUM: 7da05bf1aa8d3b4e2c0eee9f5579827ce3604d8e
+
+COCOAPODS: 1.5.3

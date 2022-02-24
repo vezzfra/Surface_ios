@@ -1,0 +1,6 @@
+framework module Pods_Gestionale_squadre {
+  umbrella header "Pods-Gestionale_squadre-umbrella.h"
+
+  export *
+  module * { export * }
+}
