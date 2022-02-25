@@ -28,6 +28,8 @@ Data is downloaded from Parse Platform where they have been uploaded by the Admi
 
 #### Shift management 
 
+Managing shifts, turn exchangings and operative first responders can be a nightmare. Surface wants to help the association's Chief in this. When shifts are created at the beginning of the month everyone receives them on the app. 
+Directly from that section every user can ask for shift exchanges to the chief or to other first responders, in case the request is approved the schedule for the month is automatically changed server-side. 
 
 
          
