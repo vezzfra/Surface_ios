@@ -5,3 +5,29 @@ An iOS and Android management system for emergency first responders.
 As a volunteer first responder I experienced in firsthand the daily problems of Emergency associations. 
 Because of this Surface was born, an app to help associations with the organisation of ambulances and cars.
 
+The functioning is the following:
+
+   - The login is integrated with User Authentication of Parse Platform;
+   - Admins can use the website to login and define check-lists and properties for every ambulance and car;
+   - Users log in and they have different sections to use: Ambulances check list, Training and exams, official operative instructions, shift management. 
+
+
+#### Check lists
+
+For every car or ambulance of the association is linked a check list. First responders at the beginning of the shift use the app to fill all the form and then to submit the finished document both to the admin and to the dispatcher console, where an operator receives it both via email and on the web portal.
+
+#### Training and exams 
+
+This section, present also on the online portal, is meant to be used by new First Responders to learn and practice after lessons. In it they can find slides, videos, manuals and advices from teachers.
+There is also a section with past exams transformed into digital forms that they can try to solve. 
+
+#### Official operative instructions 
+
+In a world where the regional emergency service releases new protocols and operative operations every day, this section helps users to stay up to date. 
+Data is downloaded from Parse Platform where they have been uploaded by the Administration. When a file is uploaded a Push notification is sento to every registered device. 
+
+#### Shift management 
+
+
+
+         
