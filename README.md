@@ -12,21 +12,21 @@ The functioning is the following:
    - Users log in and they have different sections to use: Ambulances check list, Training and exams, official operative instructions, shift management. 
 
 
-#### Check lists
+#### <img src="https://cdn-icons-png.flaticon.com/512/2666/2666436.png" width="20px"> Check lists
 
 For every car or ambulance of the association is linked a check list. First responders at the beginning of the shift use the app to fill all the form and then to submit the finished document both to the admin and to the dispatcher console, where an operator receives it both via email and on the web portal.
 
-#### Training and exams 
+#### <img src="https://cdn-icons.flaticon.com/png/512/1978/premium/1978854.png?token=exp=1646817084~hmac=704e3b6a4f9794064cbf3735d5b9f454" width="20px"> Training and exams 
 
 This section, present also on the online portal, is meant to be used by new First Responders to learn and practice after lessons. In it they can find slides, videos, manuals and advices from teachers.
 There is also a section with past exams transformed into digital forms that they can try to solve. 
 
-#### Official operative instructions 
+#### <img src="https://cdn-icons-png.flaticon.com/512/831/831842.png" width="20px"> Official operative instructions 
 
 In a world where the regional emergency service releases new protocols and operative operations every day, this section helps users to stay up to date. 
 Data is downloaded from Parse Platform where they have been uploaded by the Administration. When a file is uploaded a Push notification is sento to every registered device. 
 
-#### Shift management 
+#### <img src="https://cdn-icons.flaticon.com/png/512/2403/premium/2403803.png?token=exp=1646817119~hmac=0279f99d282c16518d1a7e570b97e38e" width="20px"> Shift management 
 
 Managing shifts, turn exchangings and operative first responders can be a nightmare. Surface wants to help the association's Chief in this. When shifts are created at the beginning of the month everyone receives them on the app. 
 Directly from that section every user can ask for shift exchanges to the chief or to other first responders, in case the request is approved the schedule for the month is automatically changed server-side. 
