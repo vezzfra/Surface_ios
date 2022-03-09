@@ -31,5 +31,10 @@ Data is downloaded from Parse Platform where they have been uploaded by the Admi
 Managing shifts, turn exchangings and operative first responders can be a nightmare. Surface wants to help the association's Chief in this. When shifts are created at the beginning of the month everyone receives them on the app. 
 Directly from that section every user can ask for shift exchanges to the chief or to other first responders, in case the request is approved the schedule for the month is automatically changed server-side. 
 
+This code includes:
 
-         
+   - <img src="https://cdn-icons.flaticon.com/png/512/586/premium/586293.png?token=exp=1646816702~hmac=1aa8641ba216486043796ec8f171985b" width="15px"> Database access;
+   - <img src="https://cdn-icons-png.flaticon.com/512/1182/1182769.png" width="15px"> Push notifications (<b>server to device</b>);
+   - <img src="https://cdn-icons-png.flaticon.com/512/3143/3143460.png" width="15px"> Automatic PDF generation;
+   - <img src="https://cdn-icons-png.flaticon.com/512/1060/1060387.png" width="15px"> User authentication;
+   - <img src="https://cdn-icons.flaticon.com/png/512/3368/premium/3368235.png?token=exp=1646816975~hmac=8a05c9262761797b532a6f089c873567" width="15px"> UIKit with Interface Builder.
